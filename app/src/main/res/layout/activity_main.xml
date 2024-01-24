@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/img_1"
+    >
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#F42414"
+        android:onClick="openOrderScreen"
+        android:text="Order now"
+        android:textColor="#09A3E8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#F10B26"
+        android:onClick="viewOrderHistory"
+        android:text="Order history"
+        android:textColor="#12A2E3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EF0C13"
+        android:onClick="contactCustomerSupport"
+        android:text="Contact us"
+        android:textColor="#10A6EA" />
+
+</LinearLayout>
